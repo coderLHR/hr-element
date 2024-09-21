@@ -1,5 +1,8 @@
 <script setup>
-[object Promise]</script>
+function handleBtnClick() {
+  console.log("btn click");
+}
+</script>
 
 <template>
   <p>
