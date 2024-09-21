@@ -29,7 +29,7 @@ importers:
       '@vue/test-utils':
         specifier: ^2.4.6
         version: 2.4.6
-      hr-element-ui:
+      hr-lee-element:
         specifier: workspace:*
         version: link:packages/core
       jsdom:

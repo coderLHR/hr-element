@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type DropdownItemProps, HrMessage } from "hr-element-ui";
+import { type DropdownItemProps, HrMessage } from "hr-lee-element";
 
 const items: DropdownItemProps[] = [
   { command: "1", label: "Action 1" },

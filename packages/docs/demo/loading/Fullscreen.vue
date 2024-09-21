@@ -1,5 +1,5 @@
 <script setup>
-import { HrLoading } from "hr-element-ui";
+import { HrLoading } from "hr-lee-element";
 import { ref } from "vue";
 
 const loading = ref(false);

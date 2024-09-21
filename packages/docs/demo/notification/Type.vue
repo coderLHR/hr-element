@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { HrNotification } from "hr-element-ui";
+import { HrNotification } from "hr-lee-element";
 
 const open1 = () => {
   HrNotification({

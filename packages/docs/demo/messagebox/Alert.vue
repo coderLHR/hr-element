@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HrMessage, HrMessageBox } from "hr-element-ui";
+import { HrMessage, HrMessageBox } from "hr-lee-element";
 
 function openAlert() {
   HrMessageBox.alert("This is a message", "Title")

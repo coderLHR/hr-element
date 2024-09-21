@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HrNotification } from "hr-element-ui";
+import { HrNotification } from "hr-lee-element";
 import { h } from "vue";
 
 function openNotify1() {

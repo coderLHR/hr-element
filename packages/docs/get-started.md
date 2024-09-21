@@ -10,7 +10,7 @@ next:
 ## 安装
 
 ```bash
-npm i @hr-element-ui --save
+npm i @hr-lee-element --save
 ```
 
 ## 开始使用
@@ -19,9 +19,9 @@ npm i @hr-element-ui --save
 
 ```js
 // 引入所有组件
-import HrUI from "hr-element-ui";
+import HrUI from "hr-lee-element";
 // 引入样式
-import "hr-element-ui/dist/index.css";
+import "hr-lee-element/dist/index.css";
 
 import App from "./App.vue";
 // 全局使用
@@ -36,7 +36,7 @@ createApp(App).use(HrUI).mount("#app");
 
 **单个导入**
 
-hr-element-ui 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
+hr-lee-element 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
 
 ```vue
 <template>

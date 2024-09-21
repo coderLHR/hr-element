@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HrMessage, HrMessageBox } from "hr-element-ui";
+import { HrMessage, HrMessageBox } from "hr-lee-element";
 import { delay } from "lodash-es";
 import { h } from "vue";
 

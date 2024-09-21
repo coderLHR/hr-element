@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { HrMessage } from "hr-element-ui";
+import { HrMessage } from "hr-lee-element";
 
 const open1 = () => {
   HrMessage("This is a message.");
