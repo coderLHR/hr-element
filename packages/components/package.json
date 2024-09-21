@@ -1,0 +1,14 @@
+{
+  "name": "@hr-element/components",
+  "version": "1.0.0",
+  "description": "",
+  "private":true,
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test pnpm --filter @hr-element/hooks build && vitest --run --coverage",
+    "test:watch":"cross-env NODE_ENV=test pnpm --filter @hr-element/hooks build && vitest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

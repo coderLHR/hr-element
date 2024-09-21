@@ -1,0 +1,16 @@
+.hr-icon {
+  --hr-icon-color: inherit;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  fill: currentColor;
+  color: var(--hr-icon-color);
+  font-size: inherit;
+}
+
+@each $val in primary, info, success, warning, danger {
+  .hr-icon--$(val) {
+    --hr-icon-color: var(--hr-color-$(val));
+  }
+}

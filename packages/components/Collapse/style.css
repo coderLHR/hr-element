@@ -1,0 +1,58 @@
+.hr-collapse {
+  --hr-collapse-border-color: var(--hr-border-color-light);
+  --hr-collapse-header-height: 48px;
+  --hr-collapse-header-bg-color: var(--hr-fill-color-blank);
+  --hr-collapse-header-text-color: var(--hr-text-color-primary);
+  --hr-collapse-header-font-size: 13px;
+  --hr-collapse-content-bg-color: var(--hr-fill-color-blank);
+  --hr-collapse-content-font-size: 13px;
+  --hr-collapse-content-text-color: var(--hr-text-color-primary);
+  --hr-collapse-disabled-text-color: var(--hr-disabled-text-color);
+  --hr-collapse-disabled-border-color: var(--hr-border-color-lighter);
+  border-top: 1px solid var(--hr-collapse-border-color);
+  border-bottom: 1px solid var(--hr-collapse-border-color);
+}
+
+.hr-collapse-item__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--hr-collapse-header-height);
+  line-height: var(--hr-collapse-header-height);
+  background-color: var(--hr-collapse-header-bg-color);
+  color: var(--hr-collapse-header-text-color);
+  cursor: pointer;
+  font-size: var(--hr-collapse-header-font-size);
+  font-weight: 500;
+  transition: border-bottom-color var(--hr-transition-duration);
+  outline: none;
+  border-bottom: 1px solid var(--hr-collapse-border-color);
+  &.is-disabled {
+    color: var(--hr-collapse-disabled-text-color);
+    cursor: not-allowed;
+    background-image: none;
+  }
+  &.is-active {
+    border-bottom-color: transparent;
+    .header-angle {
+      transform: rotate(90deg);
+    }
+  }
+  .header-angle {
+    transition: transform var(--hr-transition-duration);
+  }
+}
+.hr-collapse-item__content {
+  will-change: height;
+  background-color: var(--hr-collapse-content-bg-color);
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: var(--hr-collapse-content-font-size);
+  color: var(--hr-collapse-content-text-color);
+  border-bottom: 1px solid var(--hr-collapse-border-color);
+  padding-bottom: 25px;
+}
+.slide-enter-active,
+.slide-leave-active {
+  transition: height var(--hr-transition-duration) ease-in-out;
+}
