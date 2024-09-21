@@ -1,5 +1,9 @@
 <script setup>
-[object Promise]</script>
+import { HrMessage } from "hr-element";
+
+function handleClose() {
+  HrMessage.info("close callback");
+}</script>
 <template>
   <div class="basic block">
     <hr-alert title="Unclosable alert"
