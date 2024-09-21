@@ -1,6 +1,6 @@
-import {describe,expect,it,vi} from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 
-import {throwError,debugWarn} from '../error'
+import { debugWarn, throwError } from '../error'
 
 describe('error', () => {
   it('throwError should be worked',()=>{
@@ -15,7 +15,7 @@ describe('error', () => {
     expect(warn.mock.calls).toMatchInlineSnapshot(`
       [
         [
-          [ErUIError: [scope]:msg],
+          [HrUIError: [scope]:msg],
         ],
         [
           [SyntaxError: custom error],

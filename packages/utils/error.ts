@@ -1,24 +1,24 @@
 import { isString } from "lodash-es";
 
-class ErUIError extends Error {
+class HrUIError extends Error {
   constructor(msg: string) {
     super(msg);
-    this.name = "ErUIError";
+    this.name = "HrUIError";
   }
 }
-function createErUIError(scope: string, msg: string) {
-  return new ErUIError(`[${scope}]:${msg}`);
+function createHrUIError(scope: string, msg: string) {
+  return new HrUIError(`[${scope}]:${msg}`);
 }
 
 export function throwError(scope: string, msg: string) {
-  throw createErUIError(scope, msg);
+  throw createHrUIError(scope, msg);
 }
 
 export function debugWarn(error: Error): void;
 export function debugWarn(scope: string, msg: string): void;
 export function debugWarn(scope: string | Error, msg?: string) {
   if (process.env.NODE_ENV !== "production") {
-    const err = isString(scope) ? createErUIError(scope, msg!) : scope;
+    const err = isString(scope) ? createHrUIError(scope, msg!) : scope;
     console.warn(err);
   }
 }
