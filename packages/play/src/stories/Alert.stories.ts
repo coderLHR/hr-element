@@ -1,7 +1,7 @@
 import { fn } from "@storybook/test";
 import type { ArgTypes, Meta, StoryObj } from "@storybook/vue3";
-import { HrAlert, type AlertInstance } from "hr-element";
-import "hr-element/dist/theme/Alert.css";
+import { HrAlert, type AlertInstance } from "hr-ui";
+import "hr-ui/dist/theme/Alert.css";
 import { ref, watch } from "vue";
 
 type Story = StoryObj<typeof HrAlert> & { argTypes?: ArgTypes };

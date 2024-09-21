@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HrMessageBox, HrSwitch, type SwitchValueType } from "hr-element";
+import { HrMessageBox, HrSwitch, type SwitchValueType } from "hr-ui";
 import { h, ref } from "vue";
 
 function open1() {

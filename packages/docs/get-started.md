@@ -19,13 +19,13 @@ npm i @hr-ui --save
 
 ```js
 // 引入所有组件
-import HricUI from "hr-element";
+import HrUI from "hr-ui";
 // 引入样式
-import "hr-element/dist/index.css";
+import "hr-ui/dist/index.css";
 
 import App from "./App.vue";
 // 全局使用
-createApp(App).use(HrElement).mount("#app");
+createApp(App).use(HrUI).mount("#app");
 ```
 
 ```vue
@@ -36,7 +36,7 @@ createApp(App).use(HrElement).mount("#app");
 
 **单个导入**
 
-Hric-UI 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
+Hr-UI 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
 
 ```vue
 <template>

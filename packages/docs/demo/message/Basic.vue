@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { HrMessage } from "hr-element";
+import { HrMessage } from "hr-ui";
 import { h } from "vue";
 
 const open = () => {

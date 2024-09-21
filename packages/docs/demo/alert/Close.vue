@@ -1,5 +1,5 @@
 <script setup>
-import { HrMessage } from "hr-element";
+import { HrMessage } from "hr-ui";
 
 function handleClose() {
   HrMessage.info("close callback");

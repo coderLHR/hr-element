@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { HrMessage } from "hr-element";
+import { HrMessage } from "hr-ui";
 import { reactive, ref } from "vue";
 
 const form = reactive({

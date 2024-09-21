@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { type CollapseItemName } from 'hr-element'
-import { ref } from 'vue'
+import { type CollapseItemName } from 'hr-ui';
+import { ref } from 'vue';
 
 const activeNames = ref(['1'])
 

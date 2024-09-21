@@ -1,9 +1,9 @@
-import HrElement from "hr-element";
+import HrElement from "hr-ui";
 import { ElementPlusContainer } from "vitepress-preview-component";
 import DefaultTheme from "vitepress/theme";
 import type { App } from "vue";
 
-import "hr-element/dist/index.css";
+import "hr-ui/dist/index.css";
 import "vitepress-preview-component/style.css";
 
 export default {

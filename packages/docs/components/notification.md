@@ -44,7 +44,7 @@ demo-preview=../demo/notification/Closeable.vue
 ## 单独引用
 
 ```typescript
-import { HrNotification } from "hr-element";
+import { HrNotification } from "hr-ui";
 ```
 
 ## Notification API

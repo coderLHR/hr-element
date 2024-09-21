@@ -78,7 +78,7 @@ demo-preview=../demo/messagebox/Center.vue
 ## 单独引用
 
 ```typescript
-import { HrMessageBox } from "hr-element";
+import { HrMessageBox } from "hr-ui";
 ```
 
 ## MessageBox API

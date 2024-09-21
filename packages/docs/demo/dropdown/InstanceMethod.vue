@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DropdownInstance, DropdownItemProps } from "hr-element";
+import type { DropdownInstance, DropdownItemProps } from "hr-ui";
 import { ref } from "vue";
 
 const items: DropdownItemProps[] = [
