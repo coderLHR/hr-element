@@ -1,4 +1,4 @@
-import "hr-ui/dist/theme/index.css";
+import "hr-element-ui/dist/theme/index.css";
 
 /** @type { import('@storybook/vue3').Preview } */
 const preview = {

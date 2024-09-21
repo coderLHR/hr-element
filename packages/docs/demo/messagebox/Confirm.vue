@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { HrMessage, HrMessageBox } from "hr-ui";
+import { HrMessage, HrMessageBox } from "hr-element-ui";
 
 function openConfirm() {
   HrMessageBox.confirm("proxy will permanently delete the file. Continue?", "Warning", { type: "warning" })

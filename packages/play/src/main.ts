@@ -1,7 +1,7 @@
-import HrElement from "hr-ui";
+import HrElement from "hr-element-ui";
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import "hr-ui/dist/index.css";
+import "hr-element-ui/dist/index.css";
 
 createApp(App).use(HrElement).mount("#app");

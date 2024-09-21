@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { en, ja, ko, zhCn, zhTw } from "hr-ui";
+import { en, ja, ko, zhCn, zhTw } from "hr-element-ui";
 import { get } from "lodash-es";
 
 import { computed, ref } from "vue";

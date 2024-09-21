@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { HrMessage, type FormInstance } from 'hr-ui';
+import { HrMessage, type FormInstance } from 'hr-element-ui';
 import { reactive, ref } from 'vue';
 
 const formRef = ref<FormInstance>()

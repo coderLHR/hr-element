@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/vue3";
 
 import { fn } from "@storybook/test";
-import { HrTooltip } from "hr-ui";
-import 'hr-ui/dist/theme/Tooltip.css';
+import { HrTooltip } from "hr-element-ui";
+import 'hr-element-ui/dist/theme/Tooltip.css';
 
 type Story = StoryObj<typeof HrTooltip>;
 

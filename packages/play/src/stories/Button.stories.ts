@@ -2,8 +2,8 @@ import { clearAllMocks, expect, fn, userEvent, within } from "@storybook/test";
 import type { ArgTypes, Meta, StoryObj } from "@storybook/vue3";
 import { set } from "lodash-es";
 
-import { HrButton, HrButtonGroup } from "hr-ui";
-import 'hr-ui/dist/theme/Button.css';
+import { HrButton, HrButtonGroup } from "hr-element-ui";
+import 'hr-element-ui/dist/theme/Button.css';
 
 type Story = StoryObj<typeof HrButton> & { argTypes?: ArgTypes };
 

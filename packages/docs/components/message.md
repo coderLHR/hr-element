@@ -56,7 +56,7 @@ Message 组件提供了全局方法 `$message`，在 Vue 实例中可以作为 `
 ## 单独引用
 
 ```typescript
-import { HrMessage } from "hr-ui";
+import { HrMessage } from "hr-element-ui";
 ```
 
 ## Message API
